@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web templete for campany</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Francois+One&family=Inter:wght@200&family=Lexend+Deca:wght@300;400&family=Lobster&family=Pacifico&family=Questrial&family=REM:ital,wght@0,300;1,300&family=Raleway&family=Roboto+Condensed&family=Roboto:wght@300;400&family=Urbanist:wght@300&display=swap" rel="stylesheet">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        img{
+            width: 90px;
+            height: 60px;
+            filter: invert(100%);
+            
+        }
+        header{
+            width: 100%;
+            height: 100vh;
+            background:  linear-gradient(rgba(0,0,0,0.54), rgba(0,0,0,0.54) ),url("Untitled-design14.webp");
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+        nav{
+            width: 1200px;
+            height: 80px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+        }
+        nav ul li a {
+            margin-right: 40px;
+            font-family: arial;
+            font-weight: bold;
+            color: #fff;
+            cursor: pointer;
+            text-decoration: none;
+            /* font-family: 'Roboto Condensed', sans-serif; */
+            font-family: 'Roboto', sans-serif;
+            font-size: 18px;
+            transition: 0.5s;
+        }
+        nav ul li a:hover{
+            color: #000;
+            text-decoration: underline;
+        }
+        .btn{
+            width: 150px;
+            height: 50px;
+            background-color: #fff;
+            border: none;
+            cursor: pointer;
+            border-radius: 7px;
+            font-size: 16px;
+            font-family: arial;
+            font-weight: bold;
+            transition: 0.5s;
+            color: #000;
+            font-family: 'Roboto', sans-serif;
+            
+
+        
+        }
+        .btn:hover{
+            color: #fff;
+            background-color: #000;
+        }
+        .container{
+            width: 1200px;
+            /* height: 100vh; */
+            margin: auto;
+            margin-right: 210px;
+        }
+        .container h1{
+            padding-top: 180px;
+            font-family: arial;
+          font-size: 60px;
+          font-weight: bold;
+          color: #fff;
+        }
+        .container p{
+            font-size: 17px;
+            color: #fff;
+            /* font-family: arial; */
+            line-height: 30px;
+            font-weight: bold;
+            padding-top: 20px;
+            font-family: 'Roboto', sans-serif;
+
+        }
+        .container .btn{
+            margin-top: 25px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="coins_10464538.png" alt="">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><button class="btn">Contact Now</button></li>
+            </ul>
+        </nav>
+        <div class="container">
+            <h1>Leading Big Data<br> Analytical Company</h1>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni impedit <br> odio reprehenderit. Modi, ratione soluta? Quasi repudiandae quo quis <br>pariatur error sit totam nobis.
+            </p>
+            <li><button class="btn">Contact Now</button></li>
+
+        </div>
+    </header>
+</body>
+</html>
